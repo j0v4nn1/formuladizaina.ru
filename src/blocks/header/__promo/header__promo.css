@@ -1,0 +1,12 @@
+.header__promo {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 6em auto 0;
+}
+@media (max-width: 476px) {
+  .header__promo {
+    margin: 3em auto 0;
+    max-width: 284px;
+  }
+}

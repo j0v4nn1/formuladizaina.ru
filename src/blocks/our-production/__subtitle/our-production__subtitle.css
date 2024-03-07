@@ -1,0 +1,30 @@
+.our-production__subtitle {
+  margin-top: 0.3em;
+  font-size: 19px;
+  color: #cccccc;
+}
+.our-production__subtitle::after {
+  display: block;
+  width: 150px;
+  height: 1px;
+  margin-left: auto;
+  margin-top: 0.7em;
+  margin-right: auto;
+  content: '';
+  outline: 1px solid darkgrey;
+  background: darkgrey;
+}
+
+@media (max-width: 479px) {
+  .our-production__subtitle {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 399px) {
+  .our-production__subtitle {
+    font-size: 16px;
+    max-width: 250px;
+    text-align: center;
+  }
+}

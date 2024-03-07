@@ -1,0 +1,18 @@
+.contract__item {
+  text-transform: none;
+  font-size: 19px;
+  font-weight: 400;
+  color: white;
+  padding-left: 0;
+  margin-bottom: 1.5em;
+}
+
+.contract__item::before {
+  content: "";
+}
+
+@media (max-width: 599px) {
+  .contract__item {
+    font-size: 14px;
+  }
+}

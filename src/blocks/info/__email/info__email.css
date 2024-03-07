@@ -1,0 +1,24 @@
+.info__email {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+}
+.info__email::before {
+  display: block;
+  background-image: url("../../../images/email.png");
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  content: '';
+  vertical-align: top;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media (max-width: 786px) {
+  .info__email {
+    margin: 0.5em 0;
+  }
+}

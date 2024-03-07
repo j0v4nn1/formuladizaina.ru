@@ -1,0 +1,16 @@
+.cards__card-text {
+  margin-top: 0.5em;
+}
+
+@media (max-width: 935px) {
+  .cards__card-text {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 479px) {
+  .cards__card-text {
+    margin-top: 1em;
+    text-align: center;
+  }
+}

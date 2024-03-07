@@ -1,0 +1,11 @@
+.header__promo-button {
+  color: white;
+  font-size: 16px;
+  margin-top: 2em;
+  text-transform: uppercase;
+  border: none;
+  align-self: center;
+  padding: 10px 16px;
+  border-radius: 28px;
+  transition: all 0.2s ease-in-out;
+}

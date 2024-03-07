@@ -1,0 +1,10 @@
+.designer__info {
+  max-width: 460px;
+}
+
+@media (max-width: 599px) {
+  .designer__info {
+    margin: auto;
+    font-size: 14px;
+  }
+}

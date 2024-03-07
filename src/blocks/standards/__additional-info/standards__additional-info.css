@@ -1,0 +1,15 @@
+.standards__additional-info {
+  margin-top: 1.5em;
+  text-align: center;
+}
+.standards__additional-info::after {
+  display: block;
+  width: 150px;
+  height: 1px;
+  margin-left: auto;
+  margin-top: 0.7em;
+  margin-right: auto;
+  content: '';
+  outline: 1px solid darkgrey;
+  background: darkgrey;
+}

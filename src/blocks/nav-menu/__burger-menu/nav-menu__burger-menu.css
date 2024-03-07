@@ -1,0 +1,22 @@
+.nav-menu__burger-menu {
+  display: none;
+}
+.nav-menu__burger-menu:active {
+  border-radius: 2px;
+  outline: 1px solid #c48408;
+  outline-offset: 1px;
+}
+@media (max-width: 900px) {
+  .nav-menu__burger-menu {
+    background-size: 100% 100%;
+    background-color: rgba(0, 0, 0, 0);
+    width: 42px;
+    height: 42px;
+    padding: 0;
+    margin: 0 0 0 20px;
+    border: none;
+    background-image: url("../../../images/drop-down-menu.png");
+    display: block;
+  }
+}
+

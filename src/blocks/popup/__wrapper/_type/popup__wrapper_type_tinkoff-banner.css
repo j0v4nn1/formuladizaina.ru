@@ -1,0 +1,19 @@
+.popup__wrapper_type_tinkoff-banner {
+  max-width: 600px;
+  border-radius: 8px;
+  background-color: #F6F7F8;
+  padding: 40px;
+}
+
+@media (max-width: 768px) {
+  .popup__wrapper_type_tinkoff-banner {
+    max-width: 420px;
+  }
+}
+
+@media (max-width: 475px) {
+  .popup__wrapper_type_tinkoff-banner {
+    max-width: 335px;
+    padding: 20px;
+  }
+}

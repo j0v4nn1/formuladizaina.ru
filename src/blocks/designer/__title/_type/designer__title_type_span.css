@@ -1,0 +1,8 @@
+.designer__title_type_span {
+  display: block;
+}
+@media (max-width: 479px) {
+  .designer__title_type_span {
+    display: inline;
+  }
+}

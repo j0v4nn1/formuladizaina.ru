@@ -1,0 +1,23 @@
+.gallery__image {
+  object-fit: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+}
+
+.gallery__image:hover {
+  transform: scale(1.2)
+}
+
+@media (max-width: 768px) {
+  .gallery__image {
+    transition: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery__image:hover {
+    transform: none;
+  }
+}

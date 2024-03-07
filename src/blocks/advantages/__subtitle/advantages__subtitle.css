@@ -1,0 +1,9 @@
+.advantages__subtitle {
+  margin-top: 0.5em;
+}
+
+@media (max-width: 600px) {
+  .advantages__subtitle {
+    font-size: 16px;
+  }
+}

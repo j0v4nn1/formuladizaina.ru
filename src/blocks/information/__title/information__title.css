@@ -1,0 +1,17 @@
+.information__title {
+  font-size: 33px;
+  font-weight: 900;
+  margin: 0 0 1em;
+}
+
+@media (max-width: 599px) {
+  .information__title {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 479px) {
+  .information__title {
+    font-size: 22px;
+  }
+}

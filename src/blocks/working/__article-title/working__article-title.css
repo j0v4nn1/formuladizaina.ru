@@ -1,0 +1,11 @@
+.working__article-title {
+  font-size: 50px;
+  font-weight: 900;
+  color: #DE7900;
+}
+
+@media (max-width: 599px) {
+  .working__article-title {
+    font-size: 29px;
+  }
+}

@@ -1,0 +1,24 @@
+.info__phone {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+}
+.info__phone::before {
+  display: block;
+  background-image: url("../../../images/phone-call.png ");
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  content: '';
+  vertical-align: top;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media (max-width: 786px) {
+  .info__phone {
+    margin: 0.5em 0;
+  }
+}

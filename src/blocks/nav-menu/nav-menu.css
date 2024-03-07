@@ -1,0 +1,28 @@
+.nav-menu {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1130px;
+  width: 100%;
+  margin: auto;
+  padding: 90px 15px 15px;
+}
+
+@media (max-width: 530px) {
+  .nav-menu {
+    padding: 120px 15px 15px;
+  }
+}
+
+@media (max-width: 476px) {
+  .nav-menu {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 380px) {
+  .nav-menu {
+    padding: 150px 15px 15px;
+  }
+}

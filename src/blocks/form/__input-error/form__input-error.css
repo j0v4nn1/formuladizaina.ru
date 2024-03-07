@@ -1,0 +1,16 @@
+.form__input-error {
+  margin: auto;
+  max-width: 358px;
+  height: 22px;
+  display: block;
+  color: #ff0000;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 5px 0 17px;
+}
+
+@media (max-width: 412px) {
+  .form__input-error {
+    max-width: 270px;
+  }
+}

@@ -1,0 +1,25 @@
+.info__address {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.info__address::before {
+  display: block;
+  background-image: url("../../../images/location-pin.png");
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  content: '';
+  vertical-align: top;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media (max-width: 786px) {
+  .info__address {
+    margin: 0.5em 0;
+  }
+}

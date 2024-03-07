@@ -1,0 +1,27 @@
+.form__input {
+  /*margin-bottom: 1em;*/
+  width: 100%;
+  padding: 0.5em 19px;
+  font-family: "OfficinaSans", serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: center;
+  text-overflow: ellipsis;
+  color: #040404;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-radius: 28px;
+  background-color: #ffffff;
+  outline: none;
+  box-sizing: border-box;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+@media (max-width: 599px) {
+  .form__input {
+    font-size: 16px;
+  }
+}

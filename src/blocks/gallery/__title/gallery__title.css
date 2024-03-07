@@ -1,0 +1,9 @@
+.gallery__title {
+  font-size: 33px;
+}
+
+@media (max-width: 599px) {
+  .gallery__title {
+    font-size: 26px;
+  }
+}

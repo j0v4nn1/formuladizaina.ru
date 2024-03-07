@@ -1,0 +1,17 @@
+@media (max-width: 700px) {
+  .tinkoff-banner__logo {
+    width: 30%;
+  }
+}
+
+@media (max-width: 680px) {
+  .tinkoff-banner__logo {
+    width: 130px;
+  }
+}
+
+@media (max-width: 565px) {
+  .tinkoff-banner__logo {
+    width: 110px;
+  }
+}

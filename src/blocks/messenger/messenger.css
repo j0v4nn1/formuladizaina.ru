@@ -1,0 +1,36 @@
+.messenger {
+  position: fixed;
+  z-index: 2;
+  right: 50px;
+  bottom: 35px
+}
+
+@media screen and (max-width: 768px) {
+  .messenger {
+    right: 30px
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .messenger {
+    right: 20px
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

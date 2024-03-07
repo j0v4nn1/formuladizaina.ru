@@ -1,0 +1,11 @@
+.popup__tinkoff-icons-wrapper {
+  display: flex;
+  margin: 0 auto;
+}
+
+@media (max-width: 475px) {
+  .popup__tinkoff-icons-wrapper {
+    margin: 0;
+    display: block;
+  }
+}

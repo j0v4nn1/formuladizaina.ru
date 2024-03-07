@@ -1,0 +1,5 @@
+.nav-menu__phone {
+  display: flex;
+  flex-direction: column;
+}
+

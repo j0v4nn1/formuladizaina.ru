@@ -1,0 +1,12 @@
+.footer__copyright {
+  display: flex;
+  font-size: 16px;
+  color: darkgrey;
+}
+
+@media (max-width: 580px) {
+  .footer__copyright {
+    margin-top: 1em;
+    justify-content: center;
+  }
+}

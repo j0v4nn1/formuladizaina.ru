@@ -1,0 +1,11 @@
+.nav-menu__burger-menu-wrapper {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 476px) {
+  .nav-menu__burger-menu-wrapper {
+    width: 100%;
+    max-width: 400px;
+    justify-content: space-between;
+  }
+}

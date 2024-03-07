@@ -1,0 +1,4 @@
+.nav-menu-small__overlay_active {
+  z-index: 1000;
+  opacity: 1;
+}

@@ -1,0 +1,19 @@
+.standards__button {
+  font-size: 22px;
+  padding: 11px 19px;
+  margin-top: 3em;
+  width: 100%;
+  max-width: 360px;
+}
+
+@media (max-width: 599px) {
+  .standards__button {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 479px) {
+  .standards__button {
+    max-width: 165px;
+  }
+}

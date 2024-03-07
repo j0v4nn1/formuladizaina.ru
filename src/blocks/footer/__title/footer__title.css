@@ -1,0 +1,10 @@
+.footer__title {
+  font-size: 24px;
+  color: white;
+}
+
+@media (max-width: 468px) {
+  .footer__title {
+    margin-bottom: 19px ;
+  }
+}

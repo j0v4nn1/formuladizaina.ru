@@ -1,0 +1,17 @@
+.messenger__link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  list-style: none;
+  padding: 30px 10px;
+  transition: all .2s ease
+}
+
+@media (max-width: 425px) {
+  .messenger__link {
+    padding: 15px 10px;
+  }
+}

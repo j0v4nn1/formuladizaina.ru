@@ -1,0 +1,18 @@
+.gallery__title-wrapper {
+  text-transform: uppercase;
+}
+.gallery__title-wrapper::after {
+  display: block;
+  width: 150px;
+  height: 1px;
+  margin-top: 0.7em;
+  content: '';
+  outline: 1px solid #DE7900;
+  background: #DE7900;
+}
+
+@media (max-width: 899px) {
+  .gallery__title-wrapper::after {
+    margin: 1em auto;
+  }
+}

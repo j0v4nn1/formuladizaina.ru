@@ -1,0 +1,32 @@
+@font-face {
+  src: url(../fonts/OfficinaSans-Book.woff) format('woff'),
+  url(../fonts/OfficinaSans-Book.ttf) format('ttf'),
+  url(../fonts/OfficinaSans-Book.eot) format('eot');
+  font-family: 'OfficinaSans';
+  font-weight: 400;
+}
+@font-face {
+  src: url(../fonts/OfficinaSans-Black.woff) format('woff'),
+  url(../fonts/OfficinaSans-Black.ttf) format('ttf'),
+  url(../fonts/OfficinaSans-Black.eot) format('eot');
+  font-family: 'OfficinaSans';
+  font-weight: 900;
+}
+
+@font-face {
+  src: url(../fonts/TinkoffSans-Regular.woff) format('woff'),
+  url(../fonts/TinkoffSans-Regular.ttf) format('ttf'),
+  url(../fonts/TinkoffSans-Regular.woff2) format('woff2'),
+  url(../fonts/TinkoffSans-Regular.eot) format('eot');
+  font-family: 'Tinkoff Sans';
+  font-weight: 400;
+}
+
+@font-face {
+  src: url(../fonts/TinkoffSans-Bold.woff) format('woff'),
+  url(../fonts/TinkoffSans-Bold.ttf) format('ttf'),
+  url(../fonts/TinkoffSans-Bold.woff2) format('woff2'),
+  url(../fonts/TinkoffSans-Bold.eot) format('eot');
+  font-family: 'Tinkoff Sans';
+  font-weight: 700;
+}

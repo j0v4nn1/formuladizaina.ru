@@ -1,0 +1,39 @@
+.designer {
+  background-image: url("../../images/photos/1.jpg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 2em;
+  position: relative;
+  width: 100%;
+}
+
+@media (max-width: 1300px) {
+  .designer {
+    background-image: url("../../images/photos/2.jpg");
+  }
+}
+
+@media (max-width: 1100px) {
+  .designer {
+    background-image: url("../../images/photos/3.jpg");
+  }
+}
+
+@media (max-width: 900px) {
+  .designer {
+    background-image: url("../../images/photos/4.jpg");
+  }
+}
+
+@media (max-width: 754px) {
+  .designer {
+    background-image: url("../../images/photos/5.jpg");
+  }
+}
+
+@media (max-width: 599px) {
+  .designer {
+    background-image: url("../../images/123.jpg");
+  }
+}

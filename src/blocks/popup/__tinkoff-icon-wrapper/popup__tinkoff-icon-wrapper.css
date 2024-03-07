@@ -1,0 +1,25 @@
+.popup__tinkoff-icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 157px;
+  font-family: Tinkoff Sans, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  margin-right: 24px;
+}
+
+@media (max-width: 475px) {
+  .popup__tinkoff-icon-wrapper {
+    margin: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 248px;
+  }
+}

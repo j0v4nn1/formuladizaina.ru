@@ -1,0 +1,9 @@
+.designer__list {
+  list-style-type: none;
+  margin: 2em 0;
+}
+@media (max-width: 599px) {
+  .designer__list {
+    margin: 2em 0;
+  }
+}

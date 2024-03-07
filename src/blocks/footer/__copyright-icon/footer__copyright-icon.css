@@ -1,0 +1,7 @@
+.footer__copyright-icon {
+  display: flex;
+  margin-right: 5px;
+  align-items: flex-end;
+  font-size: 32px;
+  color: darkgrey;
+}

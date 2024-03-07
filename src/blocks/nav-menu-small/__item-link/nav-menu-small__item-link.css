@@ -1,0 +1,7 @@
+.nav-menu-small__item-link {
+  display: inline-block;
+  padding-bottom: 0.2em;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}

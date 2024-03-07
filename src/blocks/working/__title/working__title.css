@@ -1,0 +1,28 @@
+.working__title {
+  font-size: 33px;
+  text-transform: uppercase;
+}
+
+.working__title::after {
+  display: block;
+  width: 150px;
+  height: 1px;
+  margin-top: 0.7em;
+  margin-right: auto;
+  content: '';
+  outline: 1px solid #DE7900;
+  background: #DE7900;
+}
+
+@media (max-width: 767px) {
+  .working__title {
+    max-width: 152px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 599px) {
+  .working__title {
+    font-size: 26px;
+  }
+}

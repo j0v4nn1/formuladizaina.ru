@@ -1,0 +1,33 @@
+.designer__item {
+  position: relative;
+  margin: .5em 0;
+  padding-left: 30px;
+  font-size: 22px;
+  color: #DE7900;
+  text-transform: uppercase;
+}
+
+.designer__item::before {
+  position: absolute;
+  left: 5px;
+  top: -3px;
+  font-size: 33px;
+  font-weight: 900;
+  line-height: 1;
+  color: #ffffff;
+  content: '+';
+}
+@media (max-width: 599px) {
+  .designer__item {
+    padding-left: 22px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 599px) {
+  .designer__item::before {
+    font-size: 22px;
+    line-height: 0.7;
+    left: 0;
+    top: 0;
+  }
+}

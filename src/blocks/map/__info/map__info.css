@@ -1,0 +1,21 @@
+.map__info {
+  max-width: 600px;
+  box-sizing: border-box;
+  width: 50%;
+  padding: 30px 50px;
+  border-left: 4px solid rgba(0,0,0,.8);
+}
+
+@media (max-width: 1108px) {
+  .map__info {
+    padding: 15px 25px;
+  }
+}
+
+@media (max-width: 912px) {
+  .map__info {
+    width: 100%;
+    border-left: none;
+    padding: 30px 50px;
+  }
+}

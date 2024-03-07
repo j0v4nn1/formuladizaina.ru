@@ -1,0 +1,11 @@
+.tinkoff-banner__logo_type_popup {
+  width: 160px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 475px) {
+  .tinkoff-banner__logo_type_popup {
+    width: 139px;
+    margin-bottom: 38px;
+  }
+}

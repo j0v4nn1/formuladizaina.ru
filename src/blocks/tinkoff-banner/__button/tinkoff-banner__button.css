@@ -1,0 +1,30 @@
+.tinkoff-banner__button {
+  border: none;
+  cursor: pointer;
+  border-radius: 35px;
+  padding: 8px 20px;
+  color: #fff;
+  background: #333333;
+  transition: .5s;
+}
+
+.tinkoff-banner__button:hover {
+  background: rgba(51, 51, 51, 0.8);
+}
+
+@media (max-width: 900px) {
+  .tinkoff-banner__button {
+    font-size: 12px;
+  }
+}
+@media (max-width: 680px) {
+  .tinkoff-banner__button {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .tinkoff-banner__button {
+    padding: 5px 10px;
+  }
+}

@@ -1,0 +1,12 @@
+.map__info-title {
+  line-height: 1.96;
+  font-size: 22px;
+  font-weight: 900;
+}
+.map__info-title::after {
+  display: block;
+  max-width: 295px;
+  margin: 0.9em 0;
+  content: '';
+  border-top: 2px solid #DE7900;
+}

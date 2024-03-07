@@ -1,0 +1,23 @@
+.cooperation__title {
+  text-align: center;
+  margin: 0 auto 2em;
+  width: 100%;
+  max-width: 300px;
+}
+
+.cooperation__title::after {
+  display: block;
+  width: 150px;
+  height: 1px;
+  margin: 0.7em auto 0;
+  content: '';
+  outline: 1px solid #DE7900;
+  background: #DE7900;
+}
+
+@media (max-width: 341px) {
+  .cooperation__title {
+    max-width: 200px;
+    margin: 0 auto 2em;
+  }
+}

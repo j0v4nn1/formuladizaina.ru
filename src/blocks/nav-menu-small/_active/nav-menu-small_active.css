@@ -1,0 +1,4 @@
+.nav-menu-small_active {
+  visibility: visible;
+  transform: translateX(0);
+}

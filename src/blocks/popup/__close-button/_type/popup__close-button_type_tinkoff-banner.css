@@ -1,0 +1,9 @@
+.popup__close-button_type_tinkoff-banner {
+  background-image: url("../../../../images/tinkclose.svg");
+  background-size: 8px;
+  background-position: 50%;
+  background-color: #333333;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}

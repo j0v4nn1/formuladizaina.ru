@@ -1,0 +1,26 @@
+.cards__card-image {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  max-width: 225px;
+  margin-right: 22px;
+}
+
+@media (max-width: 935px) {
+  .cards__card-image {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 599px) {
+  .cards__card-image {
+    height: 100%;
+    margin: 0 auto ;
+  }
+}
+
+@media (max-width: 479px) {
+  .cards__card-image {
+    margin: 0 auto;
+  }
+}

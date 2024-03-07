@@ -1,0 +1,10 @@
+.header {
+  position: relative;
+  width: 100%;
+  background-image: url("../../images/kitchen1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 700px;
+  margin-bottom: 2em;
+}

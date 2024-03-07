@@ -1,0 +1,16 @@
+.standards__title {
+  font-size: 33px;
+  font-weight: 900;
+}
+
+@media (max-width: 599px) {
+  .standards__title {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 479px) {
+  .standards__title {
+    font-size: 22px;
+  }
+}

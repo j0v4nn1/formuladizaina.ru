@@ -1,0 +1,9 @@
+.button-to-top__text {
+  font-size: 30px
+}
+
+@media (max-width: 765px) {
+  .button-to-top__text {
+    font-size: 20px
+  }
+}

@@ -1,0 +1,16 @@
+.nav-menu-small {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  max-width: 80%;
+  height: 100%;
+  color: #ffffff;
+  cursor: default;
+  visibility: hidden;
+  transform: translateX(-22em);
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 10002;
+  transition: all 0.2s ease-in-out;
+}

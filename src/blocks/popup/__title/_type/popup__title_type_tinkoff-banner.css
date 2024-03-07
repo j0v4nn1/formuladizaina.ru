@@ -1,0 +1,28 @@
+.popup__title_type_tinkoff-banner {
+  text-transform: initial;
+  font-family: Tinkoff Sans, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 768px) {
+  .popup__title_type_tinkoff-banner {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 475px) {
+  .popup__title_type_tinkoff-banner {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0;
+    text-align: left;
+    width: 100%;
+    max-width: 295px;
+  }
+}

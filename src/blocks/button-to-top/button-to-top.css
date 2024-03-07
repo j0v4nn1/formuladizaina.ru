@@ -1,0 +1,34 @@
+.button-to-top {
+  cursor: pointer;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  position: fixed;
+  z-index: 2;
+  bottom: 1px;
+  height: 100%;
+  padding: 0 50px 0;
+  transition: .2s;
+}
+
+.button-to-top:hover {
+  background-color: rgba(0, 0, 0, .2);
+}
+
+@media (max-width: 1024px) {
+  .button-to-top {
+    padding: 0;
+    max-height: 93px;
+    left: 35px;
+    bottom: 35px
+  }
+  .button-to-top:hover {
+    background-color: rgba(0, 0, 0, 0);
+  }
+}
+@media (max-width: 765px) {
+  .button-to-top {
+    bottom: 10px;
+  }
+}

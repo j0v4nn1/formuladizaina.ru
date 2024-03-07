@@ -1,0 +1,16 @@
+.our-production__title {
+  font-size: 33px;
+  color: white;
+}
+
+@media (max-width: 599px) {
+  .our-production__title {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 479px) {
+  .our-production__title {
+    font-size: 22px;
+  }
+}

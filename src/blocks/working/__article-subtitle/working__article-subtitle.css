@@ -1,0 +1,10 @@
+.working__article-subtitle {
+  font-size: 22px;
+  font-weight: 900;
+}
+
+@media (max-width: 599px) {
+  .working__article-subtitle {
+    font-size: 16px;
+  }
+}

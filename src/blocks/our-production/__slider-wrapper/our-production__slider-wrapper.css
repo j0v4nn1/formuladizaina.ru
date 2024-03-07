@@ -1,0 +1,5 @@
+.our-production__slider-wrapper {
+  display: flex;
+  transition: 1s;
+  transform: translateX(0);
+}

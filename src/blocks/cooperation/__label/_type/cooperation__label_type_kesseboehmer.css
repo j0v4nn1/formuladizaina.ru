@@ -1,0 +1,34 @@
+.cooperation__label_type_kesseboehmer {
+  max-width: 100%;
+  width: auto;
+}
+
+@media (max-width: 760px) {
+  .cooperation__label_type_kesseboehmer {
+    height: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  .cooperation__label_type_kesseboehmer {
+    height: 80%;
+  }
+}
+
+@media (max-width: 500px) {
+  .cooperation__label_type_kesseboehmer {
+    height: 70%;
+  }
+}
+
+@media (max-width: 500px) {
+  .cooperation__label_type_kesseboehmer {
+    height: 60%;
+  }
+}
+
+@media (max-width: 400px) {
+  .cooperation__label_type_kesseboehmer {
+    height: auto;
+  }
+}

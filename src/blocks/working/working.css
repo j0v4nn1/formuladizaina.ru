@@ -1,0 +1,9 @@
+.working {
+  display: flex;
+}
+
+@media (max-width: 480px) {
+  .working {
+    display: block;
+  }
+}

@@ -1,0 +1,8 @@
+.form__submit_disabled {
+  background-color: rgba(169, 169, 169, 0.87);
+  color: rgba(255, 255, 255, 0.27);
+}
+
+.form__submit_disabled:hover {
+  background-color: rgba(169, 169, 169, 0.87);
+}

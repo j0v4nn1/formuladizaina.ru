@@ -1,0 +1,9 @@
+.gallery__subtitle {
+  font-size: 33px;
+}
+
+@media (max-width: 599px) {
+  .gallery__subtitle {
+    font-size: 26px;
+  }
+}

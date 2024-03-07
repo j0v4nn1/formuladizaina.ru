@@ -1,0 +1,22 @@
+.nav-menu__item-link {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.nav-menu__item-link::after {
+  display: block;
+  width: 0;
+  margin-left: auto;
+  margin-right: auto;
+  content: '';
+  border-top: 1px solid #ffffff;
+  transition: all 0.2s ease-in-out;
+}
+.nav-menu__item-link:hover::after {
+  width: 100%;
+}
+@media (max-width: 1040px) {
+  .nav-menu__item-link {
+    font-size: 13px;
+  }
+}

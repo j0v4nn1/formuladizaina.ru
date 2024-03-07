@@ -1,0 +1,12 @@
+.our-production__wrapper {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 15px
+}
+
+@media (max-width: 479px) {
+  .our-production__wrapper {
+    padding: 0;
+  }
+}

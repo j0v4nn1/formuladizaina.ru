@@ -1,0 +1,15 @@
+.gallery__categories {
+  display: flex;
+  width: 100%;
+  max-width: 654px;
+  justify-content: space-between;
+  list-style-type: none;
+
+}
+
+@media (max-width: 471px) {
+  .gallery__categories {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

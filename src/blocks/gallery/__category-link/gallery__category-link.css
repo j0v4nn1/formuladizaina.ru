@@ -1,0 +1,36 @@
+.gallery__category-link {
+  color: white;
+  padding: 10px 30px;
+  font-size: 22px;
+  line-height: 1;
+  border-radius: 22px;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  display: block;
+  background: #DE7900;
+}
+
+.gallery__category-link:hover {
+  background-color: #d58f0a;
+}
+
+@media (max-width: 899px) {
+  .gallery__category-link {
+    padding: 10px 25px;
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 599px) {
+  .gallery__category-link {
+    padding: 5px 15px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 471px) {
+  .gallery__category-link {
+    margin: auto;
+    width: 100%;
+  }
+}

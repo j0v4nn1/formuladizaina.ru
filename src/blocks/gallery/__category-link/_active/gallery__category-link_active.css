@@ -1,0 +1,8 @@
+.gallery__category-link_active {
+  background-color: black;
+  color: white;
+}
+.gallery__category-link_active:hover {
+  background-color: black;
+  color: white;
+}

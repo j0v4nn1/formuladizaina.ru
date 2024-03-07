@@ -1,0 +1,17 @@
+.information__image {
+  object-fit: cover;
+  display: block;
+  width: 100%;
+}
+
+@media (max-width: 670px) {
+  .information__image {
+    height: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .information__image {
+    height: auto;
+  }
+}
